@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt">
+
+  <head>
+    <meta charset="utf-8">
+    <title>MVC APS2</title>
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <br/><br/><br/>
+      <h2>MVC Exemplo Node.JS</h2>
+      <br/>
+
+      <% if (aps.length > 0) { %>
+
+        <div class="row">
+
+          <% for(var i = 0; i < aps.length; i++) {%>
+
+            <div class="col-md-12 jumbotron">
+              <h4><%= aps[i].titulo %></h4>
+              <p><%= aps[i].materia %></p>
+            </div>
+
+          <% } %>
+
+        </div>
+
+      <% } %>
+
+      <img src="../../../public/images/1.png" alt="">
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+	"materias":
+	[
+		{
+			"titulo": "Controller",
+			"materia": "O responsável por receber todas as requisições do usuário. Seus métodos chamados actions são responsáveis por uma página, controlando qual model usar e qual view será mostrado ao usuário."
+		},
+		{
+			"titulo": "Model",
+			"materia": "Sempre que você pensar em manipulação de dados, pense em model. Ele é responsável pela leitura e escrita de dados, e também de suas validações."
+		},
+		{
+			"titulo": "View",
+			"materia": "Simples: a camada de interação com o usuário. Ela apenas faz a  exibição dos dados, sendo ela por meio de um html ou xml."
+		}
+	]
+}
